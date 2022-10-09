@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+    background-color: rgb(221, 219, 219);
+    color: black;
+}
+#table{
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.header th{
+    border-top: 1px solid grey;
+    gap: 0;
+}
+.first_line{
+    margin: 0 20px;
+    height: 10vh;
+}
+.header td:nth-child(1){
+    /* border: 2px solid red; */
+    width: 40%;
+}
+.header th:nth-child(2){
+    /* border: 2px solid red; */
+    width: 20%;
+}
+.header th:nth-child(3){
+    /* border: 2px solid red; */
+    width: 40%;
+}
+
+
+#MyInput{
+    width: 96%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 1.5%;
+    background-color: rgb(225, 222, 222);
+    font-weight: bold;
+    
+    
+}
